@@ -3,7 +3,8 @@ Need to modify :
 
 # Position settings
 position_id = 814
-compund_above = 5
+
+compound_above = 5
 
 with Position ID to your current PID.
 

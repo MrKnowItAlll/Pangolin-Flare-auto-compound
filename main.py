@@ -13,7 +13,7 @@ web3.middleware_onion.inject(geth_poa_middleware, layer=0)
 seconds_in_year = 60 * 60 * 24 * 365
 # Position settings
 position_id = 814
-compund_above = 5
+compound_above = 5
 
 
 def read_json(path):
@@ -69,7 +69,7 @@ if __name__ == '__main__':
         print("Flare amount: \x1b[32m{}\x1b[0m\n\n".format(Web3.fromWei(web3.eth.getBalance(account.address), 'ether')))
 
         # Check if we need to compound
-        if rewards > compund_above:
+        if rewards > compound_above:
             print("\x1b[32mCompunding Rewards\x1b[0m")
             compound(web3, account)
 
