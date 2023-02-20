@@ -1,13 +1,12 @@
-#Simple python script to auto compound Flare Pangolin SAR position
-Need to modify :
+Simple python script to auto compound Flare Pangolin SAR position
+--------------------------------------------------------------------------
+
+| Accounts Private key should be in an Envioroment variable named |
+| ------------- |
+| KEY  |
 
 # Position settings
-position_id = 814
-
-compound_above = 5
-
-with Position ID to your current PID.
-
-compound above dictates from which value to call compound
-
-Accounts Private key should be in an Envioroment variable named 'KEY'
+| Edit  | discreption |
+| ------------- | ------------- |
+| position_id  | Pangolin Flare position ID  |
+| compound_above  | Define at which rewards script calls compund  |
